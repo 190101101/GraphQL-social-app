@@ -1,0 +1,13 @@
+query {
+  article(id:"65b22cf5b3833bb61f33b322") {
+    id
+    article
+    username
+    createdAt
+    comments{
+      id
+      comment
+    }
+  }
+}
+
